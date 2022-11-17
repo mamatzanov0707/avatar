@@ -29,3 +29,34 @@
 
   }
 }
+
+#hero{
+  .hero{
+    padding: 50px 0;
+    @include center();
+    &--logo{
+      h3{
+        font-weight: 800;
+        font-size: 45px;
+        color: #333333;
+      }
+      h2{
+        font-weight: 200;
+        font-size: 65px;
+        color: #333333;
+      }
+      p{
+        font-weight: 600;
+        font-size: 16px;
+        color: #333333;
+        padding: 20px 0;
+      }
+      &__tree{
+        button{
+          margin-right: 30px;
+          @include log();
+        }
+      }
+    }
+  }
+}
