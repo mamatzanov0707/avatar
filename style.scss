@@ -2,6 +2,71 @@
 @import "mixin";
 @import "veraibles";
 
+#hero{
+  padding-top: 5%;
+  .hero{
+    h1{
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 48px;
+      text-transform: uppercase;
+      color: $reb;
+    }
+    &--car{
+      @include center();
+    }
+    &--haw{
+      width: 220px;
+      height: 378px;
+      background: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+      border-radius: 15px;
+    }
+    &--cart{
+      width: 220px;
+      height: 74px;
+      background: #77B2D3;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+      border-radius: 15px 15px 0 0;
+      h2{
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 10px;
+      }
+    }
+    &--help {
+      @include spece();
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $reb;
+      }
+
+      img {
+        padding: 10px 20px;
+      }
+    }
+      .hero--vit{
+        width: 218px;
+        height: 0;
+        border: 1px solid #E2E2E2;
+        margin-top: 60px;
+    }
+    span{
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 24px;
+      background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      padding: 10px 20px;
+    }
 #header{
   background: #FFFFFF;
   padding:20px 0;
