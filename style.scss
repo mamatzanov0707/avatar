@@ -1,3 +1,31 @@
 @import "global";
 @import "mixin";
 @import "veraibles";
+
+#header{
+  background: #FFFFFF;
+  padding:20px 0;
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--two{
+      a{
+        font-weight: 500;
+        font-size: 16px;
+        color: #333333;
+        margin-right: 25px;
+      }
+      button{
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF;
+        background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+        border-radius: 9px;
+        padding: 20px 25px;
+        margin-left: 200px;
+      }
+    }
+
+  }
+}
