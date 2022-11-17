@@ -3,6 +3,21 @@
   justify-content: space-between;
   align-items: center;
 }
+@mixin log{
+  background: $play;
+  border-radius: 16px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFF;
+  transition: 0.4s;
+  &:hover{
+    background: red;
+    color: #FFF;
+    border-radius: 16px;
+    box-shadow: 0 0 5px #8F7CEC, 0 0 50px #8F7CEC,0 0 100px #8F7CEC;
+  }
+}
 @mixin btn{
   background: $blu;
   border-radius: 4px;

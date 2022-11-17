@@ -12,6 +12,10 @@ a {
   margin: 0 auto;
 }
 
+body {
+  background: #F7F6FF;
+}
+
 button {
   border: none;
   cursor: pointer;
@@ -107,4 +111,42 @@ button {
   margin-left: 200px;
 }
 
+#hero .hero {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .hero--logo h3 {
+  font-weight: 800;
+  font-size: 45px;
+  color: #333333;
+}
+#hero .hero--logo h2 {
+  font-weight: 200;
+  font-size: 65px;
+  color: #333333;
+}
+#hero .hero--logo p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333333;
+  padding: 20px 0;
+}
+#hero .hero--logo__tree button {
+  margin-right: 30px;
+  background: #77B2D3;
+  border-radius: 16px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  transition: 0.4s;
+}
+#hero .hero--logo__tree button:hover {
+  background: red;
+  color: #FFF;
+  border-radius: 16px;
+  box-shadow: 0 0 5px #8F7CEC, 0 0 50px #8F7CEC, 0 0 100px #8F7CEC;
+}
 /*# sourceMappingURL=style.css.map */
